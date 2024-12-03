@@ -4,12 +4,13 @@ publish_to: none
 
 dependencies:
   cupertino_icons: ^1.0.2
-  device_info_plus: ^9.1.2
+  device_info_plus:
+    path: "/Volumes/Project Data/Fenil/plus_plugins/packages/device_info_plus/device_info_plus"
   flutter:
     sdk: flutter
   flutter_local_notifications:
     path: ../
-  flutter_timezone: ^1.0.4
+  flutter_timezone: ^3.0.1
   http: ^1.2.1
   image: ^4.2.0
   path_provider: ^2.0.0
